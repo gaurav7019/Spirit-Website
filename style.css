@@ -1,0 +1,453 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .col-sm{
+	  text-align: center;
+	  justify-content: center;
+  }
+.clearfix:after {
+ visibility: hidden;
+ display: block;
+ font-size: 0;
+ content: "";
+ clear: both;
+ height: 0;
+ }
+ .col-about-us{
+	
+	 display: block;
+	 float: left;
+	 width: 50%;
+	 justify-content: center;
+ }
+ .ann-ul{
+	 list-style-type: none;
+}
+.ann-li:before {
+  content: "->"; 
+  padding-right: 20px;
+  color: white; /* Or a color you prefer */
+}
+.ann-li{
+	font-size: 30px;
+	padding-left: 40px;
+	font-family: Raleway;
+    color: #ffffff;
+}
+#preloader {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 11000;
+	position: fixed;
+	display: block
+}
+
+.preloader {
+	position: absolute;
+	margin: 0 auto;
+	left: 1%;
+	right: 1%;
+	top: 25%;
+	width: 320px;
+	background: center center no-repeat none;
+	background-size: auto auto;
+	background-size: 95px 95px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.custom-button{
+    background-color: #660099;
+    color: #ffffff;
+    border-radius: 40px;
+    float: right;
+    border: none;
+    height: 30px;
+    width: 65px;
+    margin: 3px 5px;
+}
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+    background: #000000;
+
+}
+#video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
+    background-size: cover;
+    background: url(media/video.mp4);
+    background-attachment: fixed;
+}
+#custom{
+	top: 0%;
+    background: #660099;
+    color: #ffffff;
+    border: none;
+    border-radius: 14px;
+    width: 80px;
+    height: 30px;`
+    align-content: center;
+    padding: 3px 0px;
+    font-family: Raleway;
+}
+#custom:hover{
+   
+    
+    align-content: center;
+    padding: 3px 0px;
+    width: 80px;
+    height: 30px;`
+    
+}
+#custom-link a{
+    color: #ffffff;
+    font-family: Raleway;
+    text-align: center;
+	background: #000000b5;
+}
+#custom-link a:hover{
+    
+}
+#custom-bg{
+    background-color: #000000;
+}
+#custom-font{
+    font-family: Raleway;
+}
+#section-head{
+    font-family: Raleway;
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    padding: 0px 0px 100px 0px;
+    text-emphasis: ;
+    font-size: 55px;
+
+}
+.about-info-style {
+	padding: 0px 60px;
+}
+.custom-content{
+	padding-left: 60px;
+	padding-right: 15px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120%;
+	width: 100%
+}
+#more{
+    display: none;
+}
+.custom-section{
+    height: 100%;
+    width: 100%;
+}
+
+#team-profile{
+    width: 250px;
+    height: auto;
+   
+    
+}
+#web-op{
+	 width: 250px;
+    height: auto;
+	 
+}
+#team-profile-head{
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-size: 25px;
+}
+#team-name{
+	font-size: 19px;
+    font-family: 'Raleway';
+    color: #ffffff;
+    
+}
+section{
+   
+}
+#team-image{
+    width: 50%;
+
+}
+.tales{
+    width: 100%;
+    height: auto;
+}
+#team-contact{
+	font-size: 17px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+}
+#team-pic{
+    width: 250px;
+    height: auto;
+    padding: 0px 0px 300px 300px;
+    margin-top: -10px;
+}
+#about-info{
+    background-image: url(media/bg.png);
+    size: 10%;
+    background-attachment: fixed;
+    background-size: 2000px 1400px;
+ }
+ #slider-head{
+   font-family: 'Raleway';
+   font-size: 25px;
+   color: #ffffff;
+ }
+ 
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* here is custom styling */
+.web_disigner {
+  background: #43b8e3;
+  min-height: 400px; }
+  .web_disigner .web_disigner_contain {
+    padding: 80px 0px; }
+  .web_disigner .parent_circle {
+    background: #63cdf4 none repeat scroll 0 0;
+    border: 15px solid #30a9d4;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    display: table;
+    position: relative; }
+    .web_disigner .parent_circle .parent_circle_contain {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 13px;
+      text-align: center;
+      font-weight: 600; }
+    .web_disigner .parent_circle .child_round_circle {
+      border: 15px solid #63cdf4;
+      border-radius: 50%;
+      height: 120px;
+      left: 125px;
+      position: absolute;
+      top: -25px;
+      width: 120px; }
+    .web_disigner .parent_circle .child_round_circle_img1 {
+      background: url("http://engineersahab.com/images/abhishek.png");
+      background-size: 100%; }
+    .web_disigner .parent_circle .child_round_circle_img2 {
+      background: transparent url("http://engineersahab.com/images/rahul.png") repeat scroll 0 -11px/100% auto; 
+      
+      background-position:top;
+      
+      }
+    .web_disigner .parent_circle .child_round_circle_img3 {
+      background: url("http://engineersahab.com/images/mayur.png");
+      background-size: 100%; }
+    .web_disigner .parent_circle .child_round_circle_img4 {
+      background: url("http://engineersahab.com/images/mohsin.png");
+      background-size: 100%; }
+    .web_disigner .parent_circle .child_round_circle_img5 {
+      background: url("http://imensosoftware.com/wp-content/uploads/2016/01/6.jpg");
+      background-size: 100%; }
+    .web_disigner .parent_circle .child_round_circle_img6 {
+      background: url("http://imensosoftware.com/wp-content/uploads/2016/01/5.jpg");
+      background-size: 100%; }
+
+.padtop30 {
+  padding-top: 30px; }
+  
+  /* here is our responsive css */
+ .gallery-div{
+	 font-family: Raleway;
+	 font-size: 40px;
+	padding: 10px;
+	 color: white;
+	 text-align: center;
+	 width: 100%;
+	 height: auto;
+ }
+ #ninja-slider.fullscreen > div.gallery-div {
+    display: none;
+    
+}
+@media only screen and (max-width: 1000px) 
+  {
+	  #section-head {
+			font-size: 35px;
+		  padding: 0px;
+		
+		  width: 100%;
+		  text-align: center;
+	  }
+	  .custom-content{
+		padding: 10px;
+	
+		width: 100%;
+		font-size: 20px;
+		text-align: center;
+	}
+	.ann-li{
+		font-size: 20px;
+	}
+  }
+  @media only screen and (max-width: 800px) 
+  {
+	   .row{
+		  margin-left: 0px;
+	  }
+	  .col-about-us{
+		  width: 100%;
+	  }
+	  #web-op{
+		   width: 100%;
+		   padding:0;
+		  margin: 0;
+	  }
+	  #team-profile{
+		    max-width: 200px;
+		  width: 100%;
+		   padding:0;
+		  margin: 0;
+    }
+    #sponsors-head{
+      
+    }
+	  #team-profile-head{
+		  width: 100%;
+		  position: relative;
+		 
+	  }
+	  .col-sm{
+		  min-width: 200px;
+		  width:100%;
+		  position: relative;
+		  display: block;
+	  }
+	  .carousel-inner {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		}
+	  #section-head {
+		  font-size: 30px;
+		  padding: 0px;
+		
+		  width: 100%;
+		  text-align: center;
+	  }
+	.custom-content{
+		padding: 10px;
+	
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+	}
+	
+
+      .web_disigner .parent_circle .child_round_circle 
+    {
+    border: 15px solid #63cdf4;
+    border-radius: 50%;
+    height: 100px;
+    left: 100px;
+    position: absolute;
+    top: -38px;
+    width: 100px;
+    }
+    .media-carousel .carousel-control.left{
+    
+    margin-top: 290px;
+   
+}
+.media-carousel .carousel-control.right{
+    
+    margin-top: 290px;
+   
+}
+  }
+  
+  
+
+/* End carousel */'
+@media (max-width: 978px) {
+  .container {
+    padding:0;
+    margin:0;
+  }
+
+  body {
+    padding:0;
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+}
