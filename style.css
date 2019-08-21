@@ -343,6 +343,9 @@ section{
 }
 @media only screen and (max-width: 1000px) 
   {
+    #custom{
+      left: 45%;
+    }
 	  #section-head {
 			font-size: 35px;
 		  padding: 0px;
@@ -363,6 +366,9 @@ section{
   }
   @media only screen and (max-width: 800px) 
   {
+    #custom{
+      left: 45%;
+    }
 	   .row{
 		  margin-left: 0px;
 	  }
@@ -441,6 +447,9 @@ section{
 
 /* End carousel */'
 @media (max-width: 978px) {
+  #custom{
+    left: 45%;
+  }
   .container {
     padding:0;
     margin:0;
