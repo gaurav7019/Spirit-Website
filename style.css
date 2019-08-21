@@ -104,6 +104,11 @@ body, html{
     align-content: center;
     padding: 3px 0px;
     font-family: Raleway;
+    align-self: center;
+}
+#register-button{
+  background-color: #660099;
+  display: inline-block;
 }
 #custom:hover{
    
@@ -449,5 +454,12 @@ section{
     margin-left: 0;
     margin-right: 0;
     margin-bottom:0;
+  }
+}
+@media (max-width: 600px){
+  #custom{
+    display: block;
+    margin: auto;
+    left: 41%;
   }
 }
